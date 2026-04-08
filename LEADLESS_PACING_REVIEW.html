@@ -2303,10 +2303,12 @@
                     publishedHR: 0.49, hrLCI: 0.33, hrUCI: 0.75,
                     allOutcomes: [
                         { shortLabel: 'Complication-Free', title: 'Freedom from major complications at 12 months (Micra vs historical TVP)', tE: 697, cE: 2414, type: 'PRIMARY', pubHR: 0.49, pubHR_LCI: 0.33, pubHR_UCI: 0.75 },
-                        { shortLabel: 'Pacing Threshold', title: 'Adequate pacing capture threshold at 6 months (<=2V at 0.24ms)', tE: 0, cE: 0, type: 'SECONDARY' }
+                        { shortLabel: 'Pacing Threshold', title: 'Adequate pacing capture threshold at 6 months (<=2V at 0.24ms)', tE: 714, cE: 0, type: 'SECONDARY' },
+                        { shortLabel: 'System Infection', title: 'System-related infection at 12 months (Micra vs historical TVP)', tE: 0, cE: 40, type: 'SAFETY' },
+                        { shortLabel: 'System Revision', title: 'System revision or replacement at 12 months', tE: 5, cE: 80, type: 'SAFETY' }
                     ],
                     rob: ['some', 'some', 'some', 'low', 'low'],
-                    snippet: 'Reynolds D et al. N Engl J Med 2016;374:533-541. Single-arm (n=725) vs historical TVP control (n=2667). 48% lower complication rate (HR 0.49). VERIFY: single-arm design limits causal inference.',
+                    snippet: 'Source: ClinicalTrials.gov NCT02004873 (Micra TPS). Enrollment: 744. Status: COMPLETED. Results posted. Primary: major complication-free rate at 6m & pacing threshold. Single-arm vs historical TVP. Reynolds et al. NEJM 2016;374:533-541.',
                     sourceUrl: 'https://doi.org/10.1056/NEJMoa1511643',
                     evidence: [
                         { label: 'Enrollment & Design', source: 'Reynolds et al. NEJM 2016;374:533-541, Fig 1', text: '744 patients enrolled, 725 successfully implanted with the Micra transcatheter pacing system at 56 centers worldwide. Single-arm study with historical control cohort of 2667 transvenous pacemaker patients from de novo implants in Medtronic CRM registry. Mean age 77 years.', highlights: ['725', '2667', '56 centers', '77 years'] },
